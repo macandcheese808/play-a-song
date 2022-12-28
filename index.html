@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>shinobiplug.com | The Best Plug For Edgy Websites</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet shinobiplug's team now and start creating aesthetically pleasing websites!">
+    <link rel="stylesheet" href="css/style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="assets/favicon/favicon-32x32.png" type="image/x-icon">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+
+    <audio autoplay="true" loop="true" id="audio" src="./assets/songs/L_BLATT.mp3"></audio>
+
+    <div class="placeholder">
+        <img src="./assets/background/77.gif" alt="" class="bg">
+    </div>
+
+    <div class="main">
+        <div>shinobiplug</div>
+        <div class="music-settings">
+            <div class="play">
+                <i class='bx bx-play' style="cursor: pointer;" onclick="playAudio()"></i>
+            </div>
+            <i class='bx bxl-tiktok' onclick="window.location.href='https://tiktok.com/@shinobiplug_'" style="cursor: pointer"></i>
+            <div class="pause">
+                <i class='bx bx-pause' style="cursor: pointer;" onclick="pauseAudio()"></i>
+            </div>
+        </div> 
+    </div>
+
+<script>
+// Play Anywhere
+// function audioPlay() {
+//     const audio = document.getElementById('audio');
+//     audio.volume = 0.4;
+//     audio.play()
+// }
+
+// Play Pause Anywhere
+
+// function audioPlay() {
+//     const audio = document.getElementById('audio');
+//     return audio.paused ? audio.play() : audio.pause();
+//     audio.volume = 0.4;
+//     audio.play()
+// };
+
+// Use Buttons To Play
+
+var x = document.getElementById("audio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+</body>
+</html>
